@@ -18,6 +18,7 @@ $ sudo apt-get install liboctave-dev
 then install required packages from within octave
 
 ```matlab
+$ sudo octave
 >> pkg -forge -global install signal control general image
 ```
 
