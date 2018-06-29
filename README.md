@@ -9,6 +9,11 @@ $ sudo add-apt-repository ppa:octave/stable
 $ sudo apt-get update
 $ sudo apt-get install octave
 ```
+also install the following required lib:
+
+```bash
+$ sudo apt-get install liboctave-dev
+```
 
 then install required packages from within octave
 
