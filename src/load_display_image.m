@@ -1,10 +1,10 @@
 % Load and display image
-img = imread('3.jpg');
+img = imread('../images/fruits2.jpg');
 imshow(img);
 
-% Image Size
+% Display Image Size
 disp(size(img));
 
-% Image class or data type
+% Display Image class or data type
 disp(class(img));
 
