@@ -8,4 +8,4 @@ plot(x, n);
 % randn()
 % rand()
 % randi()
-%       How about a 2D grid of random Gaussian values?
+% How about a 2D grid of random Gaussian values?
