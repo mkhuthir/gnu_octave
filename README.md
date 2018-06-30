@@ -20,6 +20,12 @@ then install required packages from within octave
 ```matlab
 $ sudo octave
 >> pkg -forge -global install signal control general image
+>> exit
+```
+run the following command to change the ownership of `octave/qt-settings` folder to your username
+
+```bash
+$ sudo chown yourusr:yourusr .config/octave/qt-settings 
 ```
 
 to check installed packages:
