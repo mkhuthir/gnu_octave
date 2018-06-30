@@ -2,6 +2,8 @@
 
 Learn CV using Matlab/Octave
 
+<p align="center"> <img src="/misc/topics.png"> </p>
+
 ### Installing Octave on Ubuntu
 
 ```bash
