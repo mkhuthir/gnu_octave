@@ -1,5 +1,5 @@
 % Use LOW HIGH in imshow()
-img = imread('../images/peppers.png');
+img = imread('../images/peppers.jpg');
 figure, imshow(img);
 
 % convert to gray

@@ -1,5 +1,5 @@
 % Add gaussian noise to image
-img = imread('../images/peppers.png');
+img = imread('../images/peppers.jpg');
 figure, imshow(img);
 
 % Generate noise
