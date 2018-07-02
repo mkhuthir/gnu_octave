@@ -41,6 +41,8 @@ Now you can try the many examples included in this repository.
 
 ## 1_A1_introduction
 
+<p align="center"> <img src="/misc/1_A1_2.png"> </p>
+
 ## 2_A1_images_as_functions
 
 ## 2_A2_filtering
@@ -50,5 +52,6 @@ Now you can try the many examples included in this repository.
 ## 2_A4_filters_as_templates
 
 ## 2_A5_edge_detection_gradients
+
 <p align="center"> <img src="/misc/2_A5_1.png"> </p>
 
