@@ -20,14 +20,8 @@ $ sudo apt-get install liboctave-dev
 then install required packages from within octave
 
 ```matlab
-$ sudo octave
->> pkg -forge -global install signal control general image
+>> pkg -forge install signal control general image
 >> exit
-```
-run the following command to change the ownership of `octave/qt-settings` folder to your username
-
-```bash
-$ sudo chown yourusr:yourusr .config/octave/qt-settings 
 ```
 
 to check installed packages:
@@ -40,3 +34,5 @@ to load package:
 ```matlab
 >> pkg load image
 ```
+
+Now you can try the many examples included in this repository.
