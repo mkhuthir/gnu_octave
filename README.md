@@ -1,6 +1,6 @@
-# Computer Vision using Ocatve
+# Udacity Introduction to Computer Vision 
 
-Learn CV using Matlab/Octave
+## Course Code using MatLab/Octave.
 
 <p align="center"> <img src="/misc/topics.png"> </p>
 
