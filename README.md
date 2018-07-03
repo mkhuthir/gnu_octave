@@ -45,6 +45,8 @@ Now you can try the many examples included in this repository.
 
 ## 2_A1_images_as_functions
 
+<p align="center"> <img src="/misc/2_A1_1.png"> </p>
+
 ## 2_A2_filtering
 
 ## 2_A3_linearity_and_convolution
