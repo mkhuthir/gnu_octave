@@ -49,6 +49,10 @@ Now you can try the many examples included in this repository.
 
 ## 2_A2_filtering
 
+<p align="center"> <img src="/misc/2_A2_1.png"> </p>
+
+<p align="center"> <img src="/misc/2_A2_2.png"> </p>
+
 ## 2_A3_linearity_and_convolution
 
 <p align="center"> <img src="/misc/2_A3_2.png"> </p>
