@@ -55,6 +55,8 @@ Now you can try the many examples included in this repository.
 
 ## 2_A4_filters_as_templates
 
+<p align="center"> <img src="/misc/2_A4_1.png"> </p>
+
 ## 2_A5_edge_detection_gradients
 
 <p align="center"> <img src="/misc/2_A5_1.png"> </p>
