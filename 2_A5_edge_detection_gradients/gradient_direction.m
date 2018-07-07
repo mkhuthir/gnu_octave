@@ -34,4 +34,4 @@ subplot(1,2,2);
 imagesc(my_grad);
 axis('off');
 colormap gray;
-title("45 Degrees Gradinent");
+title("45 Degrees Gradient");
