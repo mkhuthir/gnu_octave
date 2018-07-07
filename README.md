@@ -53,6 +53,8 @@ Now you can try the many examples included in this repository.
 
 <p align="center"> <img src="/misc/2_A1_4.png"> </p>
 
+<p align="center"> <img src="/misc/2_A1_5.png"> </p>
+
 ## 2_A2_filtering
 
 <p align="center"> <img src="/misc/2_A2_1.png"> </p>
