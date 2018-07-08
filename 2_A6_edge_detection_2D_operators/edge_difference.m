@@ -1,26 +1,18 @@
-% Edge Demo
+% Edge method 1: Difference between right and left shifted images
 
 pkg load image;
 
 % Read image
 img = imread('../images/flower1.jpg');
-%figure, imshow(img), title('Original Image');
 
 % Convert to grayscale
 img_gray = rgb2gray(img);
-%figure, imshow(img_gray), title('Image in grayscale')
 
 % Create a gaussian filter
 h = fspecial('gaussian',[11,11], 4);
 
-% Show filter
-%figure, surf(h);
-
-% Apply filter
+% Apply filter to smooth image
 img_fltr = imfilter(img_gray, h);
-%figure, imshow(img_fltr), title('Image Filtered')
-
-% Method 1: 
 
 % Shift Image Right one pixel
 img_r = img_fltr;
@@ -32,4 +24,10 @@ img_l(:,[1:(end-1)]) = img_l(:, [2:end]);
 
 % Difference between right and left shifted images
 img_diff = double(img_r)-double(img_l);
-%figure, imshow(img_diff), title('Image difference')
+
+figure(1);
+subplot(2,3,1), imshow(img)     , title('Original Image');
+subplot(2,3,2), imshow(img_gray), title('Image in grayscale');
+subplot(2,3,3), surf(h)         , title('Gaussian Filter');
+subplot(2,3,4), imshow(img_fltr), title('Image Filtered');
+subplot(2,3,5), imshow(img_diff), title('Image difference');
