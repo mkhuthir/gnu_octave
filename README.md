@@ -78,3 +78,7 @@ Now you can try the many examples included in this repository.
 ## 2_A6_edge_detection_2D_operators
 
 <p align="center"> <img src="/misc/2_A6_1.png"> </p>
+
+<p align="center"> <img src="/misc/2_A6_2.png"> </p>
+
+<p align="center"> <img src="/misc/2_A6_3.png"> </p>
