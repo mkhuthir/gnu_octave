@@ -3,7 +3,7 @@
 pkg load image;
 
 % Read image
-img = imread('../images/shapes.jpg');
+img = imread('../images/line.png');
 
 % Convert to grayscale
 img_gray = rgb2gray(img);
@@ -15,6 +15,5 @@ img_edge = edge(img_gray,'canny');
 H = houghtf(img_edge);
 
 % Plot hough accumulator
-figure, imagesc(H),xlabel('X Data'),ylabel('Y data'),title('Hough accumulator')
+figure, imagesc(H),title('Hough accumulator')
 
-peaks = houghpeaks(H,100);
