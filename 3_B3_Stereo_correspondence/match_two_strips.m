@@ -10,6 +10,14 @@ function disparity = match_strips(strip_left, strip_right, b)
     %   find the best matching position (along X-axis) in the right strip.
     % Return a vector of disparities (left X-position - right X-position).
     % Note: Only consider whole blocks that fit within image bounds.
+    num_blocks = floor(size(strip_left, 2)/b);
+    disparity = zeros([1 num_blocks]); % row-vector
+    for block = 0:(num_blocks -1)
+        x_left = block * b +1; % Matlab/Octave 1-based indexing
+        patch_left = strip_left(:, x_left:(x_left+b-1));
+        x_right = find_best_match(patch_left, strip_right);
+        disparity(1,block+1)=(x_left-x_right);
+    endfor
 endfunction
 
 % Find best match for a patch in a given strip (SSD)
