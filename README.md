@@ -89,20 +89,37 @@ Now you can try the many examples included in this repository.
 
 ## 2_B2_hough_transform_circles
 
+No Code
+
 ## 2_B3_generalized_hough_transform
+
+No Code
 
 ## 2_C1_fourier_transform
 
+No Code
+
 ## 2_C2_convolution_in_frequency_domain
+
+No Code
 
 ## 2_C3_aliasing
 
+No Code
+
 ## 3_A1_camera_and_images
+
+No Code
 
 ## 3_A2_prespective_imaging
 
 ## 3_B1_stereo_geometry
 
+No Code
+
 ## 3_B2_epipolar_geometry
 
+No Code
+
 ## 3_B3_Stereo_correspondence
+
