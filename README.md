@@ -85,4 +85,24 @@ Now you can try the many examples included in this repository.
 
 <p align="center"> <img src="/misc/2_A6_4.png"> </p>
 
-## 2_
+## 2_B1_hough_transform_lines
+
+## 2_B2_hough_transform_circles
+
+## 2_B3_generalized_hough_transform
+
+## 2_C1_fourier_transform
+
+## 2_C2_convolution_in_frequency_domain
+
+## 2_C3_aliasing
+
+## 3_A1_camera_and_images
+
+## 3_A2_prespective_imaging
+
+## 3_B1_stereo_geometry
+
+## 3_B2_epipolar_geometry
+
+## 3_B3_Stereo_correspondence
