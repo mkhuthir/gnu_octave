@@ -123,3 +123,13 @@ No Code
 
 ## 3_B3_Stereo_correspondence
 
+## 3_C1_Extrinsic_camera_parameters
+
+No Code
+
+## 3_C2_Instrinsic_camera_parameters
+
+No Code
+
+## 3_C3_Calibrating_cameras
+
