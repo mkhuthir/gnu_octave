@@ -9,14 +9,9 @@
 All code was tested on Ubuntu 16.04 LTS with Octave 4.2.2. Octave installation steps are as following:
 
 ```bash
-$ sudo add-apt-repository ppa:octave/stable
-$ sudo apt-get update
-$ sudo apt-get install octave
-```
-also install the following required lib:
-
-```bash
-$ sudo apt-get install liboctave-dev
+$ sudo apt-get install flatpak
+$ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+$ flatpak install flathub org.octave.Octave
 ```
 
 then install required packages from within octave
