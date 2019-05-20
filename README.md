@@ -142,3 +142,13 @@ No Code
 ## 3_D2_Homographies_and_mosaics
 
 ## 3_D3_Projective_geometry
+
+## 3_D4_Essential_matrix
+
+## 3_D5_Fundamental_matrix
+
+## 4_A1_Introduction_to_features
+
+## 4_A2_finding_corners
+
+## 6_B3_hierarchical_lk
