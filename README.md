@@ -9,7 +9,7 @@
 All code was tested on Ubuntu 16.04 LTS with Octave 4.2.2. Octave installation steps are as following:
 
 ```bash
-$ sudo apt-get install flatpak
+$ sudo apt install flatpak
 $ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 $ flatpak install flathub org.octave.Octave
 ```
@@ -30,6 +30,18 @@ to load package:
 
 ```matlab
 >> pkg load image
+```
+
+to remove octave
+
+```bash
+$ flatpak uninstall org.octave.Octave
+```
+
+to remove flatpak
+
+```bash
+$ sudo apt remove flatpak
 ```
 
 Now you can try the many examples included in this repository.
