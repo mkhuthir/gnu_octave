@@ -38,7 +38,6 @@ then install required packages from within octave
 
 ```matlab
 >> pkg -forge install signal control general image
->> exit
 ```
 
 to check installed packages:
@@ -50,6 +49,12 @@ to load package:
 
 ```matlab
 >> pkg load image
+```
+to exit octave command line
+
+
+```matlab
+>> exit
 ```
 
 to remove octave
