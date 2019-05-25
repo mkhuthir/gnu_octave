@@ -185,3 +185,5 @@ No Code
 ## 4_A2_finding_corners
 
 ## 6_B3_hierarchical_lk
+
+<p align="center"> <img src="/misc/6_B3_1.png"> </p>

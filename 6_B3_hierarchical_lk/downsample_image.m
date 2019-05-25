@@ -26,7 +26,7 @@ img_bd = blur_downsample(img_bd);  % 1/8 size
 img_d  = imresize(img_d, size(img));   % resize image to original size
 img_bd = imresize(img_bd, size(img));  % resize image to original size
 
-figure(1, 'position',[100,100,size(img)(2)*5,size(img)(1)])
+figure(1)
 subplot(1,3,1), imshow(img)   , title('Original Image');
 subplot(1,3,2), imshow(img_d) , title('downsampled');
 subplot(1,3,3), imshow(img_bd), title('blurred & downsampled');
