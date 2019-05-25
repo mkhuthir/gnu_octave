@@ -9,9 +9,29 @@
 All code was tested on Ubuntu 16.04 LTS with Octave 4.2.2. Octave installation steps are as following:
 
 ```bash
-$ sudo apt install flatpak
-$ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-$ flatpak install flathub org.octave.Octave
+$ sudo apt install octave
+$ sudo apt install liboctave-dev 
+```
+run octave command line
+```bash
+$ octave-cli 
+GNU Octave, version 4.2.2
+Copyright (C) 2018 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-pc-linux-gnu".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/get-involved.html
+
+Read http://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+octave:1> 
 ```
 
 then install required packages from within octave
@@ -35,13 +55,8 @@ to load package:
 to remove octave
 
 ```bash
-$ flatpak uninstall org.octave.Octave
-```
-
-to remove flatpak
-
-```bash
-$ sudo apt remove flatpak
+$ sudo apt remove octave
+$ sudo apt remove liboctave-dev
 ```
 
 Now you can try the many examples included in this repository.
