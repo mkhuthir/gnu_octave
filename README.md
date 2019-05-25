@@ -44,6 +44,12 @@ to check installed packages:
 
 ```matlab
 >> pkg list
+Package Name  | Version | Installation directory
+--------------+---------+-----------------------
+     control  |   3.2.0 | /home/user1/octave/control-3.2.0
+     general  |   2.1.0 | /home/user1/octave/general-2.1.0
+       image *|  2.10.0 | /home/user1/octave/image-2.10.0
+      signal  |   1.4.1 | /home/user1/octave/signal-1.4.1
 ```
 to load package:
 
