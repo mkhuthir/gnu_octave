@@ -12,7 +12,7 @@ end
 % Test code:
 pkg load image;
 
-img = imread('penny-farthing.png');
+img = imread('../images/penny-farthing.png');
 imshow(img);
 
 img_d = downsample(img);    % 1/2 size
@@ -23,5 +23,10 @@ img_bd = blur_downsample(img);     % 1/2 size
 img_bd = blur_downsample(img_bd);  % 1/4 size
 img_bd = blur_downsample(img_bd);  % 1/8 size
 
-imshow(imresize(img_d, size(img)));   % view downsampled image in original size
-imshow(imresize(img_bd, size(img)));  % compare with blurred & downsampled
+img_d  = imresize(img_d, size(img));   % resize image to original size
+img_bd = imresize(img_bd, size(img));  % resize image to original size
+
+figure(1, 'position',[100,100,size(img)(2)*5,size(img)(1)])
+subplot(1,3,1), imshow(img)   , title('Original Image');
+subplot(1,3,2), imshow(img_d) , title('downsampled');
+subplot(1,3,3), imshow(img_bd), title('blurred & downsampled');
