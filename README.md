@@ -6,7 +6,7 @@
 
 ### Installing Octave on Ubuntu
 
-All code was tested on Ubuntu 16.04 LTS with Octave 4.2.2. Octave installation steps are as following:
+All code was tested on Ubuntu 18.04 LTS with Octave 4.2.2. Octave installation steps are as following:
 
 ```bash
 $ sudo apt install octave
