@@ -43,31 +43,25 @@ pkg -forge install signal control general image
 to check installed packages:
 
 ```matlab
->> pkg list
-Package Name  | Version | Installation directory
---------------+---------+-----------------------
-     control  |   3.2.0 | /home/user1/octave/control-3.2.0
-     general  |   2.1.0 | /home/user1/octave/general-2.1.0
-       image *|  2.10.0 | /home/user1/octave/image-2.10.0
-      signal  |   1.4.1 | /home/user1/octave/signal-1.4.1
+pkg list
 ```
 to load package:
 
 ```matlab
->> pkg load image
+pkg load image
 ```
 to exit octave command line
 
 
 ```matlab
->> exit
+exit
 ```
 
 to remove octave
 
 ```bash
-$ sudo apt remove octave
-$ sudo apt remove liboctave-dev
+sudo apt remove octave
+sudo apt remove liboctave-dev
 ```
 
 Now you can try the many examples included in this repository.
