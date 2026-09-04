@@ -37,7 +37,7 @@ octave:1>
 then install required packages from within octave
 
 ```matlab
->> pkg -forge install signal control general image
+pkg -forge install signal control general image
 ```
 
 to check installed packages:
